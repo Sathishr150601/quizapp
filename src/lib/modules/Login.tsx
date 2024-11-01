@@ -34,7 +34,7 @@ const LoginModule: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen p-5 bg-gray-300">
+    <div className="flex flex-col items-center justify-center w-screen p-5">
       {success ? (
         <InputOTP maxLength={6} value={otp} onChange={(value) => setOtp(value)}>
           <InputOTPGroup>
